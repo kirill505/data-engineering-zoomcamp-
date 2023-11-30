@@ -15,14 +15,7 @@ Architecture diagram:
 
 ### [Week 1: Introduction & Prerequisites](week_1_basics_n_setup/)
 
-Course overview
-
-- Introduction to GCP
-- Docker and docker-compose
-- Running Postgres locally with Docker
-- Setting up infrastructure on GCP with Terraform
-- Preparing the environment for the course
-- Homework
+In this part, I got some basics for setting up GCP. I configured VM, prepared the environment, and got some basic with IaC (terraform). I configured docker and deployed using docker-compose. I found out how to run Postgres locally with Docker. Finally, in homework, I set up Postgres using docker-compose, ingested data in Postgres and made some queries to get some business features.
 
 ### [Week 2: Workflow Orchestration](week_2_workflow_orchestration/)
 
