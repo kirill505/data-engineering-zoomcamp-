@@ -1,16 +1,14 @@
 # Data Engineering Zoomcamp 2023
 
-# Data Engineering ZoomCamp
 
 ![Untitled](images/Untitled.png)
 
 ## The task
 
-**[Architecture diagram](https://github.com/DataTalksClub/data-engineering-zoomcamp#architecture-diagram)**
-
+Architecture diagram:
 ![arch_2.png](images/arch_2.png)
 
-[Week 1: Introduction & Prerequisites](https://www.notion.so/Week-1-Introduction-Prerequisites-b073b640f548421392ec8ae267ccad09?pvs=21)
+### [Week 1: Introduction & Prerequisites](week_1_basics_n_setup/)
 
 Course overview
 
@@ -23,7 +21,7 @@ Course overview
 
 [More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_1_basics_n_setup)
 
-### [Week 2: Workflow Orchestration](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_2_workflow_orchestration)
+### [Week 2: Workflow Orchestration](week_2_workflow_orchestration/)
 
 - Data Lake
 - Workflow orchestration
@@ -32,7 +30,7 @@ Course overview
 
 [More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_2_workflow_orchestration)
 
-### [Week 3: Data Warehouse](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_3_data_warehouse)
+### [Week 3: Data Warehouse](week_3_data_warehouse/)
 
 - Data Warehouse
 - BigQuery
@@ -44,7 +42,7 @@ Course overview
 
 [More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_3_data_warehouse)
 
-### [Week 4: Analytics engineering](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_4_analytics_engineering)
+### [Week 4: Analytics engineering](week_4_analytics_engineeringj/)
 
 - Basics of analytics engineering
 - dbt (data build tool)
@@ -57,7 +55,7 @@ Course overview
 
 [More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_4_analytics_engineering)
 
-### [Week 5: Batch processing](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_5_batch_processing)
+### [Week 5: Batch processing](week_5_batch_processing/)
 
 - Batch processing
 - What is Spark
@@ -67,7 +65,7 @@ Course overview
 
 [More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_5_batch_processing)
 
-### [Week 6: Streaming](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_6_stream_processing)
+### [Week 6: Streaming](week_6_stream_processing/)
 
 - Introduction to Kafka
 - Schemas (avro)
@@ -76,7 +74,7 @@ Course overview
 
 [More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_6_stream_processing)
 
-### [Week 7, 8 & 9: Project](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_7_project)
+### [Week 7, 8 & 9: Project](week_7_project/)
 
 Putting everything we learned to practice
 
@@ -85,7 +83,7 @@ Putting everything we learned to practice
 
 [More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_7_project)
 
-## **[Technologies](https://github.com/DataTalksClub/data-engineering-zoomcamp#technologies)**
+## Technologies
 
 - *Google Cloud Platform (GCP)*: Cloud-based auto-scaling platform by Google
     - *Google Cloud Storage (GCS)*: Data Lake
@@ -98,7 +96,7 @@ Putting everything we learned to practice
 - *Spark*: Distributed Processing
 - *Kafka*: Streaming
 
-## [Tools](https://github.com/DataTalksClub/data-engineering-zoomcamp#tools)
+## Tools
 
 For this course, you'll need to have the following software installed on your computer:
 
@@ -107,7 +105,7 @@ For this course, you'll need to have the following software installed on your co
 - Google Cloud SDK
 - Terraform
 
-See [Week 1](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_1_basics_n_setup) for more details about installing these tools
+See [Week 1](week_1_basics_n_setup/) for more details about installing these tools
 
 ## Progress
 
