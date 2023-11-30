@@ -481,7 +481,7 @@ Create a VM instance in Google Cloud.
 
 Side Menu > Computer Engine > VM Instance. We need to generate an SSH key for the VM instance.
 
-![Untitled](Setting%20up%20the%20Environment%20on%20Google%20Cloud%20(Cloud%20%2071f5818bdd7c498e8ee7acaccbcbd0ac/Untitled.png)
+![Untitled](/images/Untitled.png)
 
 You can google > create SSH keys for google cloud.
 
@@ -492,7 +492,7 @@ cd ~/.ssh
 ssh-keygen -t rsa -f ~/.ssh/gcp -C abd -b 2048
 ```
 
-![Untitled](Setting%20up%20the%20Environment%20on%20Google%20Cloud%20(Cloud%20%2071f5818bdd7c498e8ee7acaccbcbd0ac/Untitled%201.png)
+![Untitled](/images/Untitled%201.png)
 
 Then provide a passphrase. 
 
@@ -501,13 +501,13 @@ This will create two keys -
 - A private key (keep it yourself)
 - A public key (.pub > you can share it)
 
-![Untitled](Setting%20up%20the%20Environment%20on%20Google%20Cloud%20(Cloud%20%2071f5818bdd7c498e8ee7acaccbcbd0ac/Untitled%202.png)
+![Untitled](/images/Untitled%202.png)
 
 You will put the public key in the google cloud VM instance.
 
 Go to the compute engine. Side menu > Metadata > SSH Keys > Add SSH Key > paste the Public SSH key you just created.
 
-![Untitled](Setting%20up%20the%20Environment%20on%20Google%20Cloud%20(Cloud%20%2071f5818bdd7c498e8ee7acaccbcbd0ac/Untitled%203.png)
+![Untitled](/images/Untitled%203.png)
 
 After pasting in the pub ssh key, save and create the VM Instance.
 
@@ -519,7 +519,7 @@ Remember you have 300 Dollars to spend in 3 months so create stuff based on that
 
 Copy the external IP address
 
-![Untitled](Setting%20up%20the%20Environment%20on%20Google%20Cloud%20(Cloud%20%2071f5818bdd7c498e8ee7acaccbcbd0ac/Untitled%204.png)
+![Untitled](/images/Untitled%204.png)
 
 After copying the external IP ssh, run the command in the terminal - 
 
@@ -529,7 +529,7 @@ ssh -i ~/.ssh/gcp abd@external_ip_you_copied
 
 If everything has gone by excellentlly, you can run the command - `htop` to see what is going on in your SSHed VM instance.
 
-![Untitled](Setting%20up%20the%20Environment%20on%20Google%20Cloud%20(Cloud%20%2071f5818bdd7c498e8ee7acaccbcbd0ac/Untitled%205.png)
+![Untitled](/images/Untitled%205.png)
 
 You already have google cloud cli installed in it.
 
@@ -608,15 +608,15 @@ Then run `source .bashrc` to render the change. Then you can run `docker-compose
 
 Toggle terminal in your SSHed VS Code. Add the port 5432 -
 
-![Untitled](Setting%20up%20the%20Environment%20on%20Google%20Cloud%20(Cloud%20%2071f5818bdd7c498e8ee7acaccbcbd0ac/Untitled%206.png)
+![Untitled](/images/Untitled%206.png)
 
 Now you can run the command through SSH through VSCode to port from your local host terminal -
 
-![Untitled](Setting%20up%20the%20Environment%20on%20Google%20Cloud%20(Cloud%20%2071f5818bdd7c498e8ee7acaccbcbd0ac/Untitled%207.png)
+![Untitled](/images/Untitled%207.png)
 
 You can also access [localhost](http://localhost) 8080 of your SSHed device.
 
-![Untitled](Setting%20up%20the%20Environment%20on%20Google%20Cloud%20(Cloud%20%2071f5818bdd7c498e8ee7acaccbcbd0ac/Untitled%208.png)
+![Untitled](/images/Untitled%208.png)
 
 Make sure you don’t have any docker containers running with `docker ps`
 
@@ -642,7 +642,7 @@ It should be green. And you can run `terraform` directly.
 
 Find gcp cred json file
 
-![Untitled](Setting%20up%20the%20Environment%20on%20Google%20Cloud%20(Cloud%20%2071f5818bdd7c498e8ee7acaccbcbd0ac/Untitled%209.png)
+![Untitled](/images/Untitled%209.png)
 
 I found mine in .config>gcloud>dtc-d13423.json
 
@@ -678,7 +678,7 @@ But for that you need git clone the terraform repo and cd into it.
 
 Important point in video about setting variables in terrafrom >> [https://youtu.be/ae-CV2KfoN0?t=2637](https://youtu.be/ae-CV2KfoN0?t=2637)
 
-![Untitled](Setting%20up%20the%20Environment%20on%20Google%20Cloud%20(Cloud%20%2071f5818bdd7c498e8ee7acaccbcbd0ac/Untitled%2010.png)
+![Untitled](/images/Untitled%2010.png)
 
 YOU NEED TO GIT CLONE THEN RUN TERRFORM.
 
@@ -690,7 +690,7 @@ sudo shutdown now
 
 Or take your pick here
 
-![Untitled](Setting%20up%20the%20Environment%20on%20Google%20Cloud%20(Cloud%20%2071f5818bdd7c498e8ee7acaccbcbd0ac/Untitled%2011.png)
+![Untitled](/images/Untitled%2011.png)
 
 To continue running it you need to start/resume it again.
 

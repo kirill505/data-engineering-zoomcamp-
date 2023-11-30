@@ -4,7 +4,7 @@ I'm participating in an open-source course - Data Engineering Zoomcamp by DataTa
 
 More about this course - https://github.com/DataTalksClub/data-engineering-zoomcamp
 
-![Untitled](images/Untitled.png)
+![Untitled](images/preview.png)
 
 ## The task
 The goal is getting knowledge about Date Engineering. And having skill how to develop a data pipeline following the architecture below. We looked at New York City Taxi data.
@@ -15,7 +15,7 @@ Architecture diagram:
 
 ### [Week 1: Introduction & Prerequisites](week_1_basics_n_setup/)
 
-In this part, I got some basics for setting up GCP. I configured VM, prepared the environment, and got some basic with IaC (terraform). I configured docker and deployed using docker-compose. I found out how to run Postgres locally with Docker. Finally, in homework, I set up Postgres using docker-compose, ingested data in Postgres and made some queries to get some business features.
+In this part, I got some basics for setting up GCP. I configured VM, prepared the environment, and got some basic with IaC (terraform). I configured docker and deployed using docker-compose. I found out how to run Postgres locally with Docker. Finally, in homework, I set up Postgres using docker-compose, ingested data in Postgres and made SQL-queries to get some business features.
 
 ### [Week 2: Workflow Orchestration](week_2_workflow_orchestration/)
 
