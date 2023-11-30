@@ -1,9 +1,14 @@
 # Data Engineering Zoomcamp 2023
 
+I'm participating in an open-source course - Data Engineering Zoomcamp by DataTalksClub. I'll keep here my notes and final project 
+
+More about this course - https://github.com/DataTalksClub/data-engineering-zoomcamp
 
 ![Untitled](images/Untitled.png)
 
 ## The task
+The goal is getting knowledge about Date Engineering. And having skill how to develop a data pipeline following the architecture below. We looked at New York City Taxi data.
+
 
 Architecture diagram:
 ![arch_2.png](images/arch_2.png)
@@ -19,16 +24,12 @@ Course overview
 - Preparing the environment for the course
 - Homework
 
-[More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_1_basics_n_setup)
-
 ### [Week 2: Workflow Orchestration](week_2_workflow_orchestration/)
 
 - Data Lake
 - Workflow orchestration
 - Workflow orchestration with Mage
 - Homework
-
-[More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_2_workflow_orchestration)
 
 ### [Week 3: Data Warehouse](week_3_data_warehouse/)
 
@@ -39,8 +40,6 @@ Course overview
 - Internals of BigQuery
 - Integrating BigQuery with Airflow
 - BigQuery Machine Learning
-
-[More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_3_data_warehouse)
 
 ### [Week 4: Analytics engineering](week_4_analytics_engineeringj/)
 
@@ -53,8 +52,6 @@ Course overview
 - Deployment to the cloud and locally
 - Visualizing the data with google data studio and metabase
 
-[More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_4_analytics_engineering)
-
 ### [Week 5: Batch processing](week_5_batch_processing/)
 
 - Batch processing
@@ -63,16 +60,12 @@ Course overview
 - Spark SQL
 - Internals: GroupBy and joins
 
-[More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_5_batch_processing)
-
 ### [Week 6: Streaming](week_6_stream_processing/)
 
 - Introduction to Kafka
 - Schemas (avro)
 - Kafka Streams
 - Kafka Connect and KSQL
-
-[More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_6_stream_processing)
 
 ### [Week 7, 8 & 9: Project](week_7_project/)
 
@@ -81,13 +74,11 @@ Putting everything we learned to practice
 - Week 7 and 8: working on your project
 - Week 9: reviewing your peers
 
-[More details](https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/week_7_project)
-
 ## Technologies
 
 - *Google Cloud Platform (GCP)*: Cloud-based auto-scaling platform by Google
-    - *Google Cloud Storage (GCS)*: Data Lake
-    - *BigQuery*: Data Warehouse
+- *Google Cloud Storage (GCS)*: Data Lake
+- *BigQuery*: Data Warehouse
 - *Terraform*: Infrastructure-as-Code (IaC)
 - *Docker*: Containerization
 - *SQL*: Data Analysis & Exploration
