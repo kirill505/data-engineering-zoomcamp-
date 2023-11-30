@@ -1,0 +1,7 @@
+.ipynb_checkpoints
+green_tripdata
+ny_taxi_postgres
+.terraform
+*.csv*
+.terraform.lock.hcl
+week_1_basics_n_setup/1_terraform_gcp/terraform/terraform.tfstate
