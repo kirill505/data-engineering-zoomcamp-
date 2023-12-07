@@ -1,5 +1,6 @@
 from pathlib import Path
 import pandas as pd
+import os
 from prefect import flow, task
 from prefect_gcp.cloud_storage import GcsBucket
 from prefect_gcp import GcpCredentials
@@ -87,4 +88,5 @@ if __name__ == '__main__':
     color = "yellow"
     months = [4]
     year = 2019
+    os.makedirs(f"data/{color}")
     etl_parent_flow(months, year, color)
