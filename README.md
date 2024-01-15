@@ -1,4 +1,4 @@
-# Data Engineering Zoomcamp 2023
+# Data Engineering Zoomcamp 2024
 
 I'm participating in an open-source course - Data Engineering Zoomcamp by DataTalksClub. I'll keep here my notes and final project 
 
@@ -11,7 +11,7 @@ The goal is getting knowledge about Date Engineering. And having skill how to de
 
 
 Architecture diagram:
-![arch_2.png](images/arch_2.png)
+![arch_2.png](images/photo1700757552.jpeg)
 
 ### [Week 1: Introduction & Prerequisites](week_1_basics_n_setup/)
 
