@@ -5,3 +5,7 @@ ny_taxi_postgres
 *.csv*
 .terraform.lock.hcl
 week_1_basics_n_setup/1_terraform_gcp/terraform/terraform.tfstate
+*.parquet
+week_2_workflow_orchestration/03_deployment/.prefectignore
+week_2_workflow_orchestration/flows/03_deployment/__pycache__/parameterized_flow.cpython-39.pyc
+week_2_workflow_orchestration/homework/__pycache__/parameterized_etl_web_to_gcs.cpython-39.pyc
