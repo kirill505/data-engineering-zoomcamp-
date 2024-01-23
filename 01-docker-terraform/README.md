@@ -789,7 +789,7 @@ SELECT count(date(lpep_dropoff_datetime)) as date
 FROM public.green_taxi_trips
 WHERE date(lpep_pickup_datetime ) = '2019-09-18'
 ```
-![Alt text](image.png)
+![Alt text](/images/image_.png)
 
 - 15767(**Answer**)
 - 15612
@@ -809,7 +809,7 @@ FROM public.green_taxi_trips
 GROUP BY date
 ORDER BY SUM(trip_distance) desc
 ```
-![Alt text](image-1.png)
+![Alt text](/images/image-1_.png)
 
 - 2019-09-18
 - 2019-09-16
@@ -831,7 +831,7 @@ WHERE date(lpep_pickup_datetime) = '2019-09-18'
 GROUP BY taxi_zone_lookup."Borough"
 ORDER BY SUM("total_amount") desc
 ```
-![Alt text](image-2.png)
+![Alt text](/images/image-2.png)
 
 - "Brooklyn" "Manhattan" "Queens" (**Answer**)
 - "Bronx" "Brooklyn" "Manhattan"
@@ -860,7 +860,7 @@ WHERE
 ORDER BY tip_amount desc
 LIMIT 100
 ```
-![Alt text](image-4.png)
+![Alt text](/images/image-4.png)
 
 - Central Park
 - Jamaica
