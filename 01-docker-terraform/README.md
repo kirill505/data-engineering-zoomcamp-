@@ -784,7 +784,7 @@ Tip: started and finished on 2019-09-18.
 
 Remember that `lpep_pickup_datetime` and `lpep_dropoff_datetime` columns are in the format timestamp (date and hour+min+sec) and not in date.
 
-```
+```SQL
 SELECT count(date(lpep_dropoff_datetime)) as date
 FROM public.green_taxi_trips
 WHERE date(lpep_pickup_datetime ) = '2019-09-18'
@@ -802,7 +802,7 @@ WHERE date(lpep_pickup_datetime ) = '2019-09-18'
 Which was the pick up day with the largest trip distance
 Use the pick up time for your calculations.
 
-```
+```SQL
 SELECT date(lpep_pickup_datetime) as date,
 	SUM(trip_distance)
 FROM public.green_taxi_trips
@@ -823,7 +823,8 @@ Consider lpep_pickup_datetime in '2019-09-18' and ignoring Borough has Unknown
 
 Which were the 3 pick up Boroughs that had a sum of total_amount superior to 50000?
 
-``` SELECT "Borough", SUM("total_amount")
+```SQL
+SELECT "Borough", SUM("total_amount")
 FROM green_taxi_trips a
 LEFT JOIN taxi_zone_lookup
 ON a."PULocationID" = taxi_zone_lookup."LocationID"
@@ -846,7 +847,7 @@ We want the name of the zone, not the id.
 
 Note: it's not a typo, it's `tip` , not `trip`
 
-```
+```SQL
 SELECT zpu."Zone" as "pickup_location",
 	zdo."Zone" as "dropoff_location",
 	tip_amount
