@@ -13,18 +13,18 @@ The goal is getting knowledge about Date Engineering. And having skill how to de
 Architecture diagram:
 ![arch_2.png](images/photo1700757552.jpeg)
 
-### [Week 1: Introduction & Prerequisites](week_1_basics_n_setup/)
+### [Module 1: Containerization and Infrastructure as Code](01-docker-terraform/)
 
 In this part, I got some basics for setting up GCP. I configured VM, prepared the environment, and got some basic with IaC (terraform). I configured docker and deployed using docker-compose. I found out how to run Postgres locally with Docker. Finally, in homework, I set up Postgres using docker-compose, ingested data in Postgres and made SQL-queries to get some business features.
 
-### [Week 2: Workflow Orchestration](week_2_workflow_orchestration/)
+### [Module 2: Workflow Orchestration](02-workflow-orchestration/)
 
 - Data Lake
 - Workflow orchestration
 - Workflow orchestration with Mage
 - Homework
 
-### [Week 3: Data Warehouse](week_3_data_warehouse/)
+### [Module 3: Data Warehouse](03-data-warehouse/)
 
 - Data Warehouse
 - BigQuery
@@ -34,7 +34,7 @@ In this part, I got some basics for setting up GCP. I configured VM, prepared th
 - Integrating BigQuery with Airflow
 - BigQuery Machine Learning
 
-### [Week 4: Analytics engineering](week_4_analytics_engineeringj/)
+### [Module 4: Analytics engineering](04-analytics-engineering/)
 
 - Basics of analytics engineering
 - dbt (data build tool)
@@ -45,7 +45,7 @@ In this part, I got some basics for setting up GCP. I configured VM, prepared th
 - Deployment to the cloud and locally
 - Visualizing the data with google data studio and metabase
 
-### [Week 5: Batch processing](week_5_batch_processing/)
+### [Module 5: Batch processing](05-batch/)
 
 - Batch processing
 - What is Spark
@@ -53,7 +53,7 @@ In this part, I got some basics for setting up GCP. I configured VM, prepared th
 - Spark SQL
 - Internals: GroupBy and joins
 
-### [Week 6: Streaming](week_6_stream_processing/)
+### [Module 6: Streaming](06-streaming/)
 
 - Introduction to Kafka
 - Schemas (avro)
