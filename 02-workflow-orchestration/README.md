@@ -1,7 +1,7 @@
 
 # Week 2: Workflow Orchestration
 
-Welcome to Week 2 of the Data Engineering Zoomcamp! 🚀😤 This week, we'll be covering workflow orchestration with Mage.
+This is Week 2 on the Data Engineering Zoomcamp! 🚀😤 This week, we'll be covering workflow orchestration with Mage.
 
 Mage is an open-source, hybrid framework for transforming and integrating data. ✨
 
@@ -27,6 +27,51 @@ In this section, we'll cover the basics of workflow orchestration. We'll discuss
 Videos
 - 2.2.1a - [What is Orchestration?](https://www.youtube.com/watch?v=Li8-MWHhTbo&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 
+We will be using:
+- Docker
+- And Mage would be running in this Docker environment
+- Python, pandas
+- Postgres, SQL
+- Apache Arrow
+- GCP platform tools
+- And NYC taxi dataset.
+
+![Alt text](/images/Screenshot%20from%202024-01-31%2011-11-32.png)
+
+ETL
+![Alt text](/images/Screenshot%20from%202024-01-31%2011-22-44.png)
+
+What is Orchestration?
+
+A large part of data engineering is extracting, transforming, and loading data between sources. 
+
+Orghcestration is a process of dependency management, facilitated through automation.
+
+A good goal is automate as many process as possible. And orchestration is one way to do that.
+
+The data orchestration manages scheduling, triggering, monitoring, and even resource allocation. 
+
+Every workflow requires sequential steps.
+
+Data Engineer Lifecycle:
+![Alt text](/images/Screenshot%20from%202024-01-31%2011-44-34.png)
+
+A good orchestration handles
+- Workflow management
+- Automation
+- Error handling
+- Recovery
+- Monitoring, alerting
+- Resource optimization
+- Observability
+- Debugging
+- Compliance/Auditing
+
+![Alt text](/images/Screenshot%20from%202024-01-31%2012-03-38.png)
+
+![Alt text](/images/Screenshot%20from%202024-01-31%2012-04-52.png)
+
+
 Resources
 - [Slides](https://docs.google.com/presentation/d/17zSxG5Z-tidmgY-9l7Al1cPmz4Slh4VPK6o2sryFYvw/)
 
@@ -39,6 +84,16 @@ Videos
 - 
 - 2.2.2b - [Configuring Mage](https://www.youtube.com/watch?v=tNiV7Wp08XE?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
 - 2.2.2c - [A Simple Pipeline](https://www.youtube.com/watch?v=stI-gg4QBnI&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb)
+
+Summary
+
+
+
+![Alt text](/images/)
+![Alt text](/images/)
+![Alt text](/images/)
+![Alt text](/images/)
+
 
 Resources
 - [Getting Started Repo](https://github.com/mage-ai/mage-zoomcamp)
