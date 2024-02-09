@@ -19,10 +19,7 @@ In this part, I got some basics for setting up GCP. I configured VM, prepared th
 
 ### [Module 2: Workflow Orchestration](02-workflow-orchestration/)
 
-- Data Lake
-- Workflow orchestration
-- Workflow orchestration with Mage
-- Homework
+I have implemented ETL pipeline with Mage framework to read and combine data from CSV files, filter, transform, and load to PostgreSQL and to GCP.
 
 ### [Module 3: Data Warehouse](03-data-warehouse/)
 
