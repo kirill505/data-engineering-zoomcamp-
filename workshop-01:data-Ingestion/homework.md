@@ -1,8 +1,5 @@
 # Homework
 
-The [linked colab notebook](https://colab.research.google.com/drive/1Te-AT0lfh0GpChg1Rbd0ByEKOHYtWXfm#scrollTo=wLF4iXf-NR7t&forceEdit=true&sandboxMode=true) offers a few exercises to practice what you learned today.
-
-
 #### Question 1: What is the sum of the outputs of the generator for limit = 5?
 - **A**: 10.23433234744176
 - **B**: 7.892332347441762
